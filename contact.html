@@ -131,101 +131,96 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-7 order-first order-md-last mt-sm-4 mt-lg-0">
-                            <form id="contact-form" class="contact-form" method="POST" netlify>
-                                <form name="contact" method="POST" action="/thank-you" data-netlify="true">
-    </form>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
-                                    <label for="name">Nom</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="nom@exemple.com">
-                                    <label for="email">Adresse e-mail</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="nom@exemple.com">
-                                    <label for="phone">Téléphone</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="company-name" name="company-name" placeholder="nom@exemple.com">
-                                    <label for="company-name">Nom de l'entreprise</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="url" class="form-control" id="website" name="website" placeholder="nom@exemple.com">
-                                    <label for="website">Site web de l'entreprise</label>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <div class="form-label">Je suis intéressé par :</div>
-                                    <div class="form-input-group">
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="options-base" id="option-branding" value="Image de marque">
-                                            <label class="btn magnetic-button btn-outline" for="option-branding">Image de marque<span></span></label>
-                                        </div>
+                          <form name="contact" method="POST" action="/thank-you" data-netlify="true">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
+        <label for="name">Nom</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" name="email" placeholder="nom@exemple.com">
+        <label for="email">Adresse e-mail</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="phone" name="phone" placeholder="nom@exemple.com">
+        <label for="phone">Téléphone</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="company-name" name="company-name" placeholder="nom@exemple.com">
+        <label for="company-name">Nom de l'entreprise</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="url" class="form-control" id="website" name="website" placeholder="nom@exemple.com">
+        <label for="website">Site web de l'entreprise</label>
+    </div>
+    <div class="form-group mb-3">
+        <div class="form-label">Je suis intéressé par :</div>
+        <div class="form-input-group">
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="options-base" id="option-branding" value="Image de marque">
+                <label class="btn magnetic-button btn-outline" for="option-branding">Image de marque<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="options-base" id="option-web-design" value="Conception web">
-                                            <label class="btn magnetic-button btn-outline" for="option-web-design">Conception web<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="options-base" id="option-web-design" value="Conception web">
+                <label class="btn magnetic-button btn-outline" for="option-web-design">Conception web<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="options-base" id="option-app-design" value="Conception d'application">
-                                            <label class="btn magnetic-button btn-outline" for="option-app-design">Conception d'application<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="options-base" id="option-app-design" value="Conception d'application">
+                <label class="btn magnetic-button btn-outline" for="option-app-design">Conception d'application<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="options-base" id="option-other" value="Autre">
-                                            <label class="btn magnetic-button btn-outline" for="option-other">Autre<span></span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <div class="form-label">Mon budget est de :</div>
-                                    <div class="form-input-group">
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="budget-options" id="budget-1" value="< 2k">
-                                            <label class="btn magnetic-button btn-outline" for="budget-1">&lt; 2k<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="options-base" id="option-other" value="Autre">
+                <label class="btn magnetic-button btn-outline" for="option-other">Autre<span></span></label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group mb-3">
+        <div class="form-label">Mon budget est de :</div>
+        <div class="form-input-group">
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="budget-options" id="budget-1" value="< 2k">
+                <label class="btn magnetic-button btn-outline" for="budget-1">&lt; 2k<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="budget-options" id="budget-2" value="2-5k">
-                                            <label class="btn magnetic-button btn-outline" for="budget-2">2-5k<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="budget-options" id="budget-2" value="2-5k">
+                <label class="btn magnetic-button btn-outline" for="budget-2">2-5k<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="budget-options" id="budget-3" value="5-10k">
-                                            <label class="btn magnetic-button btn-outline" for="budget-3">5-10k<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="budget-options" id="budget-3" value="5-10k">
+                <label class="btn magnetic-button btn-outline" for="budget-3">5-10k<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="budget-options" id="budget-4" value="10-15k">
-                                            <label class="btn magnetic-button btn-outline" for="budget-4">10-15k<span></span></label>
-                                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="budget-options" id="budget-4" value="10-15k">
+                <label class="btn magnetic-button btn-outline" for="budget-4">10-15k<span></span></label>
+            </div>
 
-                                        <div class="form-input">
-                                            <input type="radio" class="btn-check" name="budget-options" id="budget-5" value="> 20k">
-                                            <label class="btn magnetic-button btn-outline" for="budget-5">&gt; 20k<span></span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="budget" name="budget-defini" placeholder="nom@exemple.com">
-                                    <label for="budget">Avez-vous un budget défini ?</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="timeline" name="disponibilites" placeholder="nom@exemple.com">
-                                    <label for="timeline">Quelles sont vos disponibilités ?</label>
-                                </div>
-                                <div class="form-floating mb-4">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Laissez un commentaire ici" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                               <button type="submit" class="btn magnetic-button">Envoyer le message <i class="icon bi bi-arrow-right ms-1"></i><span></span></button>
-                                </form>
-                                <div id="form-response" style="margin-top: 20px; display: none;"></div>
-                                <p class="form-message"></p>
-                            
-                            <p class="form-message"></p>
-                        </div>
+            <div class="form-input">
+                <input type="radio" class="btn-check" name="budget-options" id="budget-5" value="> 20k">
+                <label class="btn magnetic-button btn-outline" for="budget-5">&gt; 20k<span></span></label>
+            </div>
+        </div>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="budget" name="budget-defini" placeholder="nom@exemple.com">
+        <label for="budget">Avez-vous un budget défini ?</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="timeline" name="disponibilites" placeholder="nom@exemple.com">
+        <label for="timeline">Quelles sont vos disponibilités ?</label>
+    </div>
+    <div class="form-floating mb-4">
+        <textarea class="form-control" id="message" name="message" placeholder="Laissez un commentaire ici" style="height: 100px"></textarea>
+        <label for="message">Message</label>
+    </div>
+    <button type="submit" class="btn magnetic-button">Envoyer le message <i class="icon bi bi-arrow-right ms-1"></i><span></span></button>
+</form>
+<div id="form-response" style="margin-top: 20px; display: none;"></div>
+<p class="form-message"></p>
                     </div>
                 </div>
             </section>
